@@ -1,0 +1,11 @@
+directory: ~/work/beets-quickstart/music
+library: ~/work/beets-quickstart/library.db
+
+import:
+  move: yes
+  write: yes
+
+plugins: types lyrics lastgenre web
+
+types:
+  rating: int

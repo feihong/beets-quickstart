@@ -2,24 +2,13 @@
 
 ## Prerequisites
 
-    pip3 install requests pylast beautifulsoup4
+    pip3 install requests flask pylast beautifulsoup4
+
+# Installation
+
     pip3 install beets
 
-## Sample config file
-
-```
-directory: ~/work/beets-quickstart/music
-library: ~/work/beets-quickstart/library.db
-
-import:
-  move: yes
-  write: yes
-
-plugins: types lyrics lastgenre web
-
-types:
-  rating: int
-```
+Add `export BEETSDIR=~/work/beets-quickstart` to `~/.bash_profile`
 
 ## Commands
 
