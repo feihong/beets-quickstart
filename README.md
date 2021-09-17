@@ -28,9 +28,13 @@ Import some music:
 
     beet import ~/chinese-music-processors/youtube/output
 
-List all tracks added in 2021:
+List all tracks added in September 2021:
 
-    beet ls 'added:2021'
+    beet ls 'added:2021-09'
+
+Remove all tracks added in September 2021:
+
+    beet remove -d 'added:2021-09'
 
 ## Links
 

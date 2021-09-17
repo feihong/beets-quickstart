@@ -1,1 +1,5 @@
+.DS_Store
 library.db
+beetslog.txt
+/music
+state.pickle

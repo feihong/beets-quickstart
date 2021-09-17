@@ -4,6 +4,11 @@ library: ~/work/beets-quickstart/library.db
 import:
   move: yes
   write: yes
+  log: beetslog.txt
+
+paths:
+  default: %time{$added,%Y}/%time{$added,%m}/$artist  $title
+  singleton: %time{$added,%Y}/%time{$added,%m}/$artist  $title
 
 plugins: types lyrics lastgenre web
 
